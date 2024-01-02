@@ -1,0 +1,63 @@
+
+
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url('./assets/backgroundGit.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: lightsteelblue;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.git-container{
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  
+}
+
+.btn{
+  background-color: #1e1e1e;
+  color: darkgray;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  padding: 5px;
+  margin-left: 6px;
+}
+
+.btn:hover{
+  background-color: rgba(176, 196, 222, 0.808);
+  color: #1e1e1e;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#texto-input{
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+#foto{
+  border-radius: 50%;
+  max-width: 200px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.user-repos{
+  text-align: center;
+}
