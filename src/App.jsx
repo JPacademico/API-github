@@ -69,8 +69,9 @@ function App() {
           </div>
         )}
         <div className="repos-content">
+          
         {dataUserRepos &&
-          dataUserRepos.map((element) => <a className="link" href={element.url}>{element.name}</a>)}
+          dataUserRepos.map((element) => <a className="link" href={element.html_url}>{element.name}</a>)}
           </div>
       </div>
     </>

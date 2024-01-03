@@ -1,9 +1,17 @@
 .repos-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .link {
     text-decoration: none;
-    color: white;
+    color: lightblue;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: lightblue;
+    text-decoration: underline;
 }

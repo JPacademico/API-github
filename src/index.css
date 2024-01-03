@@ -51,6 +51,11 @@ body{
   outline: none;
 }
 
+#texto-input:focus{
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+
 #foto{
   border-radius: 50%;
   max-width: 200px;
